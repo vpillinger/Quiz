@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DFF5B431889B1E90055C5A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF5B421889B1E90055C5A2 /* UIKit.framework */; };
+		8DFF5B451889B1E90055C5A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF5B441889B1E90055C5A2 /* Foundation.framework */; };
+		8DFF5B471889B1E90055C5A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF5B461889B1E90055C5A2 /* CoreGraphics.framework */; };
+		8DFF5B4D1889B1E90055C5A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF5B4B1889B1E90055C5A2 /* InfoPlist.strings */; };
+		8DFF5B4F1889B1E90055C5A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF5B4E1889B1E90055C5A2 /* main.m */; };
+		8DFF5B531889B1E90055C5A2 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF5B521889B1E90055C5A2 /* TestAppDelegate.m */; };
+		8DFF5B561889B1E90055C5A2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF5B541889B1E90055C5A2 /* MainStoryboard_iPhone.storyboard */; };
+		8DFF5B591889B1E90055C5A2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF5B571889B1E90055C5A2 /* MainStoryboard_iPad.storyboard */; };
+		8DFF5B5C1889B1E90055C5A2 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF5B5B1889B1E90055C5A2 /* TestViewController.m */; };
+		8DFF5B641889B1EA0055C5A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF5B631889B1EA0055C5A2 /* SenTestingKit.framework */; };
+		8DFF5B651889B1EA0055C5A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF5B421889B1E90055C5A2 /* UIKit.framework */; };
+		8DFF5B661889B1EA0055C5A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF5B441889B1E90055C5A2 /* Foundation.framework */; };
+		8DFF5B6E1889B1EA0055C5A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF5B6C1889B1EA0055C5A2 /* InfoPlist.strings */; };
+		8DFF5B711889B1EA0055C5A2 /* QuizReReduxXcode4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF5B701889B1EA0055C5A2 /* QuizReReduxXcode4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DFF5B671889B1EA0055C5A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DFF5B351889B1E90055C5A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DFF5B3D1889B1E90055C5A2;
+			remoteInfo = QuizReReduxXcode4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DFF5B3E1889B1E90055C5A2 /* QuizReReduxXcode4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizReReduxXcode4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFF5B421889B1E90055C5A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DFF5B441889B1E90055C5A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DFF5B461889B1E90055C5A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DFF5B4A1889B1E90055C5A2 /* QuizReReduxXcode4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizReReduxXcode4-Info.plist"; sourceTree = "<group>"; };
+		8DFF5B4C1889B1E90055C5A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DFF5B4E1889B1E90055C5A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DFF5B501889B1E90055C5A2 /* QuizReReduxXcode4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizReReduxXcode4-Prefix.pch"; sourceTree = "<group>"; };
+		8DFF5B511889B1E90055C5A2 /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		8DFF5B521889B1E90055C5A2 /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		8DFF5B551889B1E90055C5A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8DFF5B581889B1E90055C5A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8DFF5B5A1889B1E90055C5A2 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8DFF5B5B1889B1E90055C5A2 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8DFF5B621889B1EA0055C5A2 /* QuizReReduxXcode4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizReReduxXcode4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFF5B631889B1EA0055C5A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DFF5B6B1889B1EA0055C5A2 /* QuizReReduxXcode4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizReReduxXcode4Tests-Info.plist"; sourceTree = "<group>"; };
+		8DFF5B6D1889B1EA0055C5A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DFF5B6F1889B1EA0055C5A2 /* QuizReReduxXcode4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizReReduxXcode4Tests.h; sourceTree = "<group>"; };
+		8DFF5B701889B1EA0055C5A2 /* QuizReReduxXcode4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizReReduxXcode4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DFF5B3B1889B1E90055C5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF5B431889B1E90055C5A2 /* UIKit.framework in Frameworks */,
+				8DFF5B451889B1E90055C5A2 /* Foundation.framework in Frameworks */,
+				8DFF5B471889B1E90055C5A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFF5B5E1889B1EA0055C5A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF5B641889B1EA0055C5A2 /* SenTestingKit.framework in Frameworks */,
+				8DFF5B651889B1EA0055C5A2 /* UIKit.framework in Frameworks */,
+				8DFF5B661889B1EA0055C5A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DFF5B331889B1E90055C5A2 = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B481889B1E90055C5A2 /* QuizReReduxXcode4 */,
+				8DFF5B691889B1EA0055C5A2 /* QuizReReduxXcode4Tests */,
+				8DFF5B411889B1E90055C5A2 /* Frameworks */,
+				8DFF5B3F1889B1E90055C5A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DFF5B3F1889B1E90055C5A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B3E1889B1E90055C5A2 /* QuizReReduxXcode4.app */,
+				8DFF5B621889B1EA0055C5A2 /* QuizReReduxXcode4Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DFF5B411889B1E90055C5A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B421889B1E90055C5A2 /* UIKit.framework */,
+				8DFF5B441889B1E90055C5A2 /* Foundation.framework */,
+				8DFF5B461889B1E90055C5A2 /* CoreGraphics.framework */,
+				8DFF5B631889B1EA0055C5A2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DFF5B481889B1E90055C5A2 /* QuizReReduxXcode4 */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B511889B1E90055C5A2 /* TestAppDelegate.h */,
+				8DFF5B521889B1E90055C5A2 /* TestAppDelegate.m */,
+				8DFF5B541889B1E90055C5A2 /* MainStoryboard_iPhone.storyboard */,
+				8DFF5B571889B1E90055C5A2 /* MainStoryboard_iPad.storyboard */,
+				8DFF5B5A1889B1E90055C5A2 /* TestViewController.h */,
+				8DFF5B5B1889B1E90055C5A2 /* TestViewController.m */,
+				8DFF5B491889B1E90055C5A2 /* Supporting Files */,
+			);
+			path = QuizReReduxXcode4;
+			sourceTree = "<group>";
+		};
+		8DFF5B491889B1E90055C5A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B4A1889B1E90055C5A2 /* QuizReReduxXcode4-Info.plist */,
+				8DFF5B4B1889B1E90055C5A2 /* InfoPlist.strings */,
+				8DFF5B4E1889B1E90055C5A2 /* main.m */,
+				8DFF5B501889B1E90055C5A2 /* QuizReReduxXcode4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DFF5B691889B1EA0055C5A2 /* QuizReReduxXcode4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B6F1889B1EA0055C5A2 /* QuizReReduxXcode4Tests.h */,
+				8DFF5B701889B1EA0055C5A2 /* QuizReReduxXcode4Tests.m */,
+				8DFF5B6A1889B1EA0055C5A2 /* Supporting Files */,
+			);
+			path = QuizReReduxXcode4Tests;
+			sourceTree = "<group>";
+		};
+		8DFF5B6A1889B1EA0055C5A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DFF5B6B1889B1EA0055C5A2 /* QuizReReduxXcode4Tests-Info.plist */,
+				8DFF5B6C1889B1EA0055C5A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DFF5B3D1889B1E90055C5A2 /* QuizReReduxXcode4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFF5B741889B1EA0055C5A2 /* Build configuration list for PBXNativeTarget "QuizReReduxXcode4" */;
+			buildPhases = (
+				8DFF5B3A1889B1E90055C5A2 /* Sources */,
+				8DFF5B3B1889B1E90055C5A2 /* Frameworks */,
+				8DFF5B3C1889B1E90055C5A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizReReduxXcode4;
+			productName = QuizReReduxXcode4;
+			productReference = 8DFF5B3E1889B1E90055C5A2 /* QuizReReduxXcode4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DFF5B611889B1EA0055C5A2 /* QuizReReduxXcode4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFF5B771889B1EA0055C5A2 /* Build configuration list for PBXNativeTarget "QuizReReduxXcode4Tests" */;
+			buildPhases = (
+				8DFF5B5D1889B1EA0055C5A2 /* Sources */,
+				8DFF5B5E1889B1EA0055C5A2 /* Frameworks */,
+				8DFF5B5F1889B1EA0055C5A2 /* Resources */,
+				8DFF5B601889B1EA0055C5A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DFF5B681889B1EA0055C5A2 /* PBXTargetDependency */,
+			);
+			name = QuizReReduxXcode4Tests;
+			productName = QuizReReduxXcode4Tests;
+			productReference = 8DFF5B621889B1EA0055C5A2 /* QuizReReduxXcode4Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DFF5B351889B1E90055C5A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Test;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Vincent Pillinger";
+			};
+			buildConfigurationList = 8DFF5B381889B1E90055C5A2 /* Build configuration list for PBXProject "QuizReReduxXcode4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DFF5B331889B1E90055C5A2;
+			productRefGroup = 8DFF5B3F1889B1E90055C5A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DFF5B3D1889B1E90055C5A2 /* QuizReReduxXcode4 */,
+				8DFF5B611889B1EA0055C5A2 /* QuizReReduxXcode4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DFF5B3C1889B1E90055C5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF5B4D1889B1E90055C5A2 /* InfoPlist.strings in Resources */,
+				8DFF5B561889B1E90055C5A2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8DFF5B591889B1E90055C5A2 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFF5B5F1889B1EA0055C5A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF5B6E1889B1EA0055C5A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DFF5B601889B1EA0055C5A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DFF5B3A1889B1E90055C5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF5B4F1889B1E90055C5A2 /* main.m in Sources */,
+				8DFF5B531889B1E90055C5A2 /* TestAppDelegate.m in Sources */,
+				8DFF5B5C1889B1E90055C5A2 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFF5B5D1889B1EA0055C5A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF5B711889B1EA0055C5A2 /* QuizReReduxXcode4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DFF5B681889B1EA0055C5A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DFF5B3D1889B1E90055C5A2 /* QuizReReduxXcode4 */;
+			targetProxy = 8DFF5B671889B1EA0055C5A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DFF5B4B1889B1E90055C5A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFF5B4C1889B1E90055C5A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DFF5B541889B1E90055C5A2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFF5B551889B1E90055C5A2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8DFF5B571889B1E90055C5A2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFF5B581889B1E90055C5A2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8DFF5B6C1889B1EA0055C5A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DFF5B6D1889B1EA0055C5A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DFF5B721889B1EA0055C5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DFF5B731889B1EA0055C5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFF5B751889B1EA0055C5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizReReduxXcode4/QuizReReduxXcode4-Prefix.pch";
+				INFOPLIST_FILE = "QuizReReduxXcode4/QuizReReduxXcode4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DFF5B761889B1EA0055C5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizReReduxXcode4/QuizReReduxXcode4-Prefix.pch";
+				INFOPLIST_FILE = "QuizReReduxXcode4/QuizReReduxXcode4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DFF5B781889B1EA0055C5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuizReReduxXcode4.app/QuizReReduxXcode4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizReReduxXcode4/QuizReReduxXcode4-Prefix.pch";
+				INFOPLIST_FILE = "QuizReReduxXcode4Tests/QuizReReduxXcode4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DFF5B791889B1EA0055C5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuizReReduxXcode4.app/QuizReReduxXcode4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizReReduxXcode4/QuizReReduxXcode4-Prefix.pch";
+				INFOPLIST_FILE = "QuizReReduxXcode4Tests/QuizReReduxXcode4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DFF5B381889B1E90055C5A2 /* Build configuration list for PBXProject "QuizReReduxXcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFF5B721889B1EA0055C5A2 /* Debug */,
+				8DFF5B731889B1EA0055C5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFF5B741889B1EA0055C5A2 /* Build configuration list for PBXNativeTarget "QuizReReduxXcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFF5B751889B1EA0055C5A2 /* Debug */,
+				8DFF5B761889B1EA0055C5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DFF5B771889B1EA0055C5A2 /* Build configuration list for PBXNativeTarget "QuizReReduxXcode4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFF5B781889B1EA0055C5A2 /* Debug */,
+				8DFF5B791889B1EA0055C5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DFF5B351889B1E90055C5A2 /* Project object */;
+}
